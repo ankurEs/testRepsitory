@@ -21,7 +21,6 @@ public class letzNavPropertiesReader
 		is = new FileInputStream(new File("user.dir"+"\\src\\main\\java\\letzNavTestFrameWork\\letzNavConfiguration\\letzNavConfig.properties"));
 		prop.load(is);
 		value=prop.getProperty(desiredValue.toLowerCase());
-		
 		} 
 		catch (FileNotFoundException e) 
 		{
